@@ -4,7 +4,7 @@ import Text1 from './component/Text1';
 import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Landing from './component/home/Landing';
-//import store from "./store";
+import store from "./store";
 
 class App extends Component {
   render() {

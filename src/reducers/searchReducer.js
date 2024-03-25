@@ -1,4 +1,4 @@
-import { SEARCH_MOVIE} from './actions/types';
+import { SEARCH_MOVIE} from '../actions/types';
 
 
 

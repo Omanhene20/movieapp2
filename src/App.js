@@ -5,15 +5,15 @@ import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Landing from './component/home/Landing';
 import store from "./store";
-
+import { Provider } from 'react-redux';
 class App extends Component {
   render() {
     return (
-      <div>
+      <Provider store={store}> 
         <Navbar />
          <Landing /> 
         <Footer />
-      </div>
+        </Provider>
     );
   }
 }
